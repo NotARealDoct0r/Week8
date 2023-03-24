@@ -1,0 +1,55 @@
+/* added background image using absolute path */
+body {
+    background-image: url(https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?resize=2048%2C1080&ssl=1);
+    /* Full height */
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* used element selectors - changed font colors for all headings */
+h1, h4 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+/* used/added 'class' to each 'anchors' on the html file so that it can be manipulated */
+nav, .soccer, .ufc, .boxing {
+    font-size: 35px;
+    color: purple;
+}
+
+/* used width + display and set it to auto & flex to adjust size automatically */
+nav, img {
+    width: auto;
+    display: flex;
+}
+
+/* used element selector - changed form font colors */
+form {
+    color: white; 
+}
+
+/* used id ("#") reference to change font size */
+#name, #email, #message {
+    font-size: 17px;
+    display: block;
+}
+
+/* used id reference again to display textarea as a 'block' */
+#textarea {
+    display: block;
+}
+
+/* used id ref again to set height and width to auto */
+#button {
+    height: auto;
+    width: auto;
+}

@@ -1,0 +1,57 @@
+<!--"DOCTYPE html" is declaring that this is an HTML file-->
+<!DOCTYPE html>
+<html>
+<!--within "html", under "head" is where you can customize the page (not necessarily displayed to the user)-->
+  <head>
+    <!--meta charset utf-8 is the language being set-->
+    <meta charset="utf-8" />
+    <!--the meta below is setting the display to fit proportionately to the device being used by the user-->
+    <meta name="viewport" content="width=device-width, initla-scale=1.0" />
+    <!--title is naming the html-->
+    <title>Week 7</title>
+    <link rel="stylesheet" href="main_styles.css">
+  </head>
+  <body>
+    <!--within body is where the user is going to see the displayed data-->
+    <h1>A page about my favorite sports!</h1>
+    <!--h1 / h4 are different heading sizes-->
+    <h4>Welcome! :]</h4>
+    <nav>
+      <!--'nav' is where navigation links are provided-->
+      <ul>
+        <!--'ul' stands for unordered list (bullet points) followed by listed items with 'anchors' (links) and images-->
+        <li>
+          <a class="soccer" href="soccer.html">Soccer ["Futbol"]</a><br/><br/>
+          <img src="Images\Son Heung Min (Batman).jpg" height="300px"><br/><br/>
+          <!--customized the 'height' (image size due to taking up too much real estate)-->
+        </li>
+        <li>
+          <a class="ufc" href="ufc.html">UFC</a><br/><br/>
+          <!--these are relative paths because they are saved locally-->
+          <img src="Images\ufc logo.png" height="300px"><br/><br/>
+        </li>
+        <li>
+          <a class="boxing" href="boxing.html">Boxing</a><br/><br/>    
+          <img src="Images\Ali+Tyson.jpg" height="300px">            
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Feel free to reach out!</h2>
+      <form>
+        <!--under 'main' (a section of the html page), created a 'form' with a space for the user to provide their 
+            name + email + message/questions-->
+        <label id="name" for="name">Name:</label>
+        <input type="text" name="name" placeholder="Full Name" required />
+        <br />
+        <label id="email" for="email">Email:</label>
+        <input type="email" name="email" placeholder="example@example.com" required />
+        <br /><br/>
+        <!--'br' are placed to create spacing between objects-->
+        <label id="message" for="message">Message:</label>
+        <textarea id="textarea" rows="4" cols="50" placeholder="Write your message and/or question(s) here"></textarea><br/><br/>
+        <button id ="button" type="submit" name="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

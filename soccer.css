@@ -1,0 +1,35 @@
+/* Centered and scaled the image to fit nicely */
+body {
+    background-image: url(https://wallpaperaccess.com/full/3915789.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*changed color and centered text*/
+h3, p {
+    color: white;
+    text-align: center;
+}
+
+/*changed font size*/
+h3 {
+    font-size: 40px;
+}
+
+/*changed font size*/
+p {
+    font-size: 30px;
+}
+
+/*changed color + font size*/
+main, .anchor {
+    color: red;
+    font-size: 25px;
+}
+
+/*changed image size*/
+#image {
+    height: 350px;
+}
