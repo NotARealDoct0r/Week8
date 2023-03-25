@@ -5,8 +5,9 @@ body {
 
 /*changed font size and color*/
 body, h3, p {
+    background-color: black;
     font-size: 30px;
-    color: red;
+    color: white;
 }
 
 /*changed the image size*/

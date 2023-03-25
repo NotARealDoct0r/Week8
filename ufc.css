@@ -8,13 +8,17 @@ body {
 }
 
 /*changed font size and color*/
-body, h3, p {
+table, h3, p {
     font-size: 25px;
     color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
 }
 
 /*changed the link color*/
 .youtube {
+    font-size: 25px;
     color: red;
 }
 
